@@ -6,6 +6,10 @@
   <title>Web Form</title>
 </head>
 <style>
+  .body{
+  place-items: center;  /* จัดให้อยู่กึ่งกลางทั้งแนวตั้งและแนวนอน */
+  
+  }
   .btn{
     width: 60px;
     margin-left:150px;
@@ -15,10 +19,6 @@
       background-color: #f7ebd9;
       height: 460px;
       width: 400px;
-      margin-left: 540px ;
-     margin-right:auto ;
-      margin-top: -10px; ;
-      margin-bottom: 10px;
       padding: 20px 20px;
     
     }
@@ -30,13 +30,13 @@
        
       }
   </style>
-<body>
+<body class="body">
   <h2 Align=center>แบบสอบถาม</h2>
   <hr>
   <br>
   
   <form class="form">
-    
+    <table>
 
       <table><b>ข้อมูลผู้ตอบแบบสอบถาม</b></table>
 <table---><b>ชื่อ-นามสกุล</b>
@@ -103,10 +103,7 @@
   <input type="submit" value="บันทึก" class="btn">
 
 </div>
-
-
-
-
+</table>
   </form>
 
 </body>
